@@ -1,0 +1,32 @@
+baseURL = "localhost:1313"
+languageCode = "en-us"
+title = "Moïse Kamgoué - DevOps"
+theme = "nix"
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "/blog"
+  [[menu.header]]
+    name = "resume"
+    weight = 1
+    url = "/resume"
+  [[menu.header]]
+    name = "projects"
+    weight = 2
+    url = "/projects"
+
+
+[params]
+  Name = "Moïse Kamgoué"
+  HeaderUsername = "moise"
+  HeaderHostname = "kamgoue.me"
+  About = "Hello I am Moïse (k2m), infrastructure lover in particular cloud. My religion is, never do same things two times, it is reason why automate is my doctrine... Born DevOps specialist, I am Cloud engineer and fullstack developer"
+  ProfilePicture = "https://themes.gohugo.io//theme/hugo-theme-nix/profile.jpg"
+
+  BitbucketID = "mk613"
+  Email = "moise@kamgoue.me"
+  FacebookID = "moise.kam"
+  GithubID = "mkameni"
+  LinkedInID = "moisekameni"
